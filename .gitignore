@@ -1,14 +1,12 @@
-__pycache__/
-
-# Virtual environment
-.venv
-.env
-
-# Credentials
-*.json
-
-# Test Files
-test_*
-
-# locks
+.DS_Store
+.git/
+.vscode/
 *.lock
+__pycache__/
+.venv/
+.env/
+.env
+local_server/
+.dockerignore
+.gitignore
+README.md

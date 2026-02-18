@@ -17,7 +17,7 @@ COPY pyproject.toml ./
 # Install defined dependencies in pyproject.toml
 RUN uv pip install -r pyproject.toml --system
 
-# Copiar el resto del proyecto
+# Copy the rest of the project
 COPY ./src ./
 EXPOSE 5000
 CMD ["python", "main.py"]
