@@ -5,6 +5,7 @@ CREDENTIALS = CredentialsManager.get_credentials()
 
 logging.basicConfig(level=CREDENTIALS.get("LOGGER_LEVEL", "INFO"))
 
+
 def get_logger(name: str) -> logging.Logger:
     """
     Get a logger instance for a specific module.
